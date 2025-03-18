@@ -12,4 +12,19 @@ function adicionarAmigo() {
     } else {
       alert("Por favor, insira um nome válido!");
     }
+}
+  
+function sortearAmigo() {
+    if (amigos.length === 0) {
+      document.getElementById('resultado').innerHTML = '<li>Adicione amigos para sortear.</li>'; 
+      return;
+    }
+  
+    const indiceSorteado = Math.floor(Math.random() * amigos.length);
+    const amigoSorteado = amigos[indiceSorteado];
+  
+      document.getElementById('resultado').innerHTML = `<li>O amigo sorteado foi: ${amigoSorteado}</li>`; 
+      
+      amigos = [];
+    document.getElementById('listaAmigos').innerHTML = '';
   }
