@@ -46,4 +46,7 @@ Contribuições são sempre bem-vindas! Se você tiver alguma sugestão de melho
 
 1.  Clone o repositório.
 2.  Abra o arquivo \`index.html\` no seu navegador.
-3.  Divirta-se! 
+3.  Divirta-se!
+
+## URL do Projeto
+ ttps://kauansoaresme.github.io/DesafioAmigoSecreto/
