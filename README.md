@@ -13,9 +13,9 @@ Este projeto é um aplicativo web simples para organizar sorteios de amigo secre
 
 1.  Clone este repositório:
 
-    \`\`\`bash
+    ```bash
     git clone https://github.com/Kauansoaresme/DesafioAmigoSecreto.git
-    \`\`\`
+    ```
 
 2.  Abra o arquivo \`index.html\` no seu navegador.
 3.  Digite o nome dos seus amigos no campo de texto e clique em "Adicionar".
